@@ -1,0 +1,24 @@
+
+
+
+.form_box {width:800px;margin:0 auto;}
+.form_box h3 {font-size: 30px;font-weight: bold;text-align: center;line-height: 50px;padding:10px 0;}
+.form-el {display: flex;margin-bottom:20px;}
+.form-el label {font-size:18px;color:rgb(85, 85, 85);min-width:200px;height:40px;line-height: 40px;}
+.form-el input {
+    border:1px solid #ddd;border-radius: 6px;height:40px;line-height: 40px;
+    padding:5px 10px;
+}
+.form-el .message {
+    height:40px;line-height: 24px;margin-left:20px;
+    display: flex;align-items: center;
+}
+
+.form_box .btn_submit button {
+    padding:10px 20px;border-radius: 6px;
+    border:1px solid #575757;
+    background-color: rgb(255, 161, 38);
+    cursor: pointer;
+}
+
+.btn_submit {text-align: right;}
