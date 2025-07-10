@@ -17,8 +17,8 @@ const siteText = [
     {
         text: ["make", "site compliant with", "react.js"],
         title: "리액트를 이용한 사이트 제작",
-        code: "https://github.com/ny.kim23/port-react",
-        view: "https://github.com/ny.kim23/port-react",
+        code: "http://github.com",
+        view: "http://github.com",
         info: [
             "site coding",
             "production period : two days",
@@ -28,8 +28,8 @@ const siteText = [
     {
         text: ["make", "site compliant with", "vue.js"],
         title: "뷰를 이용한 사이트 제작",
-        code: "https://github.com/ny.kim23/port-react",
-        view: "https://github.com/ny.kim23/port-react",
+        code: "http://github.com",
+        view: "http://github.com",
         info: [
             "site coding",
             "production period : two days",
@@ -39,8 +39,8 @@ const siteText = [
     {
         text: ["make", "site compliant with", "next.js"],
         title: "넥스트를 이용한 사이트 제작",
-        code: "https://github.com/ny.kim23/port-react",
-        view: "https://github.com/ny.kim23/port-react",
+        code: "http://github.com",
+        view: "http://github.com",
         info: [
             "site coding",
             "production period : two days",
