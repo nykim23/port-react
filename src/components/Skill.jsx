@@ -1,19 +1,22 @@
 import React from "react";
 
-const skillText = [
-    {
-        title:"꿈",
-        desc:"나는"
-    },
-    {
-        title:"열심",
-        desc:"운이좋은사람"
-    },
-    {
-        title:"나에게정직",
-        desc:"열정적으로"
-    }
-]
+import { skillText } from "../constants";
+
+
+// const skillText = [
+//     {
+//         title:"꿈",
+//         desc:"나는"
+//     },
+//     {
+//         title:"열심",
+//         desc:"운이좋은사람"
+//     },
+//     {
+//         title:"나에게정직",
+//         desc:"열정적으로"
+//     }
+// ]
 
 
 const Skill = () => {

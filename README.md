@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+## 정리
+useEffect() 함수는 컴포넌트가 렌더링될때마다 특정 작업(Sied effect)을 실행할 수 있도록 하는 리액트 훅
+useEffect를 사용하여 특정작업을 처리하면, 컴포넌트의 생명주기에 따라 특정작업을 수행할수있다.
+useEffect는 컴포넌트가 렌더링되고 난 이후에 실행되며, 매 렌더링시마다 실행됨. 그러나 useEffect의 동작을 조절하기 위해 의존성 배열을 사용할 수 있다.
+
+리액트 훅은 함수형 컴포넌트에서 상태와 다양한 기능을 추가적으로 사용할 수 있도록 도와주는 기능. 리액트훅 버전 16.8부터 도입, 클래스형 컴포넌트를 사용하지않고도 상태관리와 다른 리액트 기능들을 사용할 수 잇게해줌
+
+
+컴포넌트의 생명주기는 컴포넌트가 생성되고, 업데이트되고, 소멸되는 과정을 의미.리액트 컴포넌트는 특정시점에 호출되는 생명주기 메서드를 가지고있으며, 이를 활용하여 컴포넌트의 동작을 제어하고 원하는 작업을 수행할수있다.

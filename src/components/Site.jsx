@@ -1,53 +1,53 @@
 import React from "react";
 
+import { siteText } from "../constants";
 
-
-const siteText = [
-    {
-        text:["make", "site compliant with", "webstandard"],
-        title:"비트를 이용한 사이트제작",
-        code:"https://github.com/",
-        view:"https://github.com/",
-        info:[
-            "site coding",
-            "production period: two days",
-            use stack:HTML5/CSS3, CSS Variable,
-        ],
-    },
-    {
-        text: ["make", "site compliant with", "react.js"],
-        title: "리액트를 이용한 사이트 제작",
-        code: "http://github.com",
-        view: "http://github.com",
-        info: [
-            "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, CSS Variable, Vite",
-        ],
-    },
-    {
-        text: ["make", "site compliant with", "vue.js"],
-        title: "뷰를 이용한 사이트 제작",
-        code: "http://github.com",
-        view: "http://github.com",
-        info: [
-            "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, Scss Variable, vue",
-        ],
-    },
-    {
-        text: ["make", "site compliant with", "next.js"],
-        title: "넥스트를 이용한 사이트 제작",
-        code: "http://github.com",
-        view: "http://github.com",
-        info: [
-            "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, Scss Variable, next.js",
-        ],
-    },
-]
+// const siteText = [
+//     {
+//         text:["make", "site compliant with", "webstandard"],
+//         title:"비트를 이용한 사이트제작",
+//         code:"https://github.com/",
+//         view:"https://github.com/",
+//         info:[
+//             "site coding",
+//             "production period: two days",
+//             use stack:HTML5/CSS3, CSS Variable,
+//         ],
+//     },
+//     {
+//         text: ["make", "site compliant with", "react.js"],
+//         title: "리액트를 이용한 사이트 제작",
+//         code: "http://github.com",
+//         view: "http://github.com",
+//         info: [
+//             "site coding",
+//             "production period : two days",
+//             "use stack : HTML5/CSS3, CSS Variable, Vite",
+//         ],
+//     },
+//     {
+//         text: ["make", "site compliant with", "vue.js"],
+//         title: "뷰를 이용한 사이트 제작",
+//         code: "http://github.com",
+//         view: "http://github.com",
+//         info: [
+//             "site coding",
+//             "production period : two days",
+//             "use stack : HTML5/CSS3, Scss Variable, vue",
+//         ],
+//     },
+//     {
+//         text: ["make", "site compliant with", "next.js"],
+//         title: "넥스트를 이용한 사이트 제작",
+//         code: "http://github.com",
+//         view: "http://github.com",
+//         info: [
+//             "site coding",
+//             "production period : two days",
+//             "use stack : HTML5/CSS3, Scss Variable, next.js",
+//         ],
+//     },
+// ]
 
 
 const Site = () => {

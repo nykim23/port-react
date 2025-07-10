@@ -1,39 +1,39 @@
 import React from "react";
 
+import { footerText } from "../constants";
 
-
-const footerText = [
-    {
-        title:"youtube",
-        desc:"유투브",
-        link: "https://www.youtube.com"
-    },
-    {
-        title:"github",
-        desc:"유투브",
-        link: "https://www.youtube.com"
-    },
-    {
-        title:"gsap",
-        desc:"유투브",
-        link: "https://www.youtube.com"
-    },
-    {
-        title:"react",
-        desc:"유투브",
-        link: "https://www.youtube.com"
-    },
-    {
-        title:"vue",
-        desc:"유투브",
-        link: "https://www.youtube.com"
-    },
-    {
-        title:"next",
-        desc:"유투브",
-        link: "https://www.youtube.com"
-    },
-]
+// const footerText = [
+//     {
+//         title:"youtube",
+//         desc:"유투브",
+//         link: "https://www.youtube.com"
+//     },
+//     {
+//         title:"github",
+//         desc:"유투브",
+//         link: "https://www.youtube.com"
+//     },
+//     {
+//         title:"gsap",
+//         desc:"유투브",
+//         link: "https://www.youtube.com"
+//     },
+//     {
+//         title:"react",
+//         desc:"유투브",
+//         link: "https://www.youtube.com"
+//     },
+//     {
+//         title:"vue",
+//         desc:"유투브",
+//         link: "https://www.youtube.com"
+//     },
+//     {
+//         title:"next",
+//         desc:"유투브",
+//         link: "https://www.youtube.com"
+//     },
+// ]
 
 
 const Footer = () => {
