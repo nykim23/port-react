@@ -9,6 +9,9 @@ import Header from './components/Header';
 import lenis from "./utils/lenis";
 import link from "./utils/link";
 
+
+import ScrollTop from "./components/ScrollTop";
+
 const App = () => {
 
   useEffect(() => {
@@ -29,6 +32,7 @@ const App = () => {
 
 
       <Header />
+      <ScrollTop />
     </div>
   );
 };

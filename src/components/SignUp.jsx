@@ -154,39 +154,39 @@ const SignUp = () => {
 
             <div className="form">
                 <div className='form-el'>
-                    <label htmlFor='id'>Id</label><br />
+                    <label htmlFor='id'>Id</label>
                     <input id='id' name='id' value={id} onChange={onChangeId} />
                     <p className='message'>{idMessage}</p>
                 </div>
             </div>
 
             <div className="form-el">
-                <label htmlFor='name'>Nick Name</label><br />
+                <label htmlFor='name'>Nick Name</label>
                 <input id="name" name="name" value={name} onChange={onChangeName} />
                 <p className='message'>{nameMessage}</p>
             </div>
 
             <div className="form-el">
-                <label htmlFor="password">Password</label><br />
+                <label htmlFor="password">Password</label>
                 <input id="password" name="password" value={password} onChange={onChangePassword} />
                 <p className="message">{passwordMessage}</p>
             </div>
 
             <div className="form-el">
-                <label htmlFor="passwordConfirm">password Confirm</label><br />
+                <label htmlFor="passwordConfirm">password Confirm</label>
                 <input id="passwordConfirm" name="passwordConfirm" value={passwordConfirm}
                 onChange={onChangePasswordConfirm} />
                 <p className="message">{passwordConfirmMessage}</p>
             </div>
 
             <div className="form-el">
-                <label htmlFor="email">Email</label><br />
+                <label htmlFor="email">Email</label>
                 <input id="email" name="email" value={email} onChange={onChangeEmail} />
                 <p className="message">{emailMessage}</p>
             </div>
 
             <div className="form-el">
-                <label htmlFor="birth">Birth</label><br />
+                <label htmlFor="birth">Birth</label>
                 <input type="date" id="birth" name="birth" value={birth} onChange={onChangeBirth} />
                 <p className="message">{birthMessage}</p>
             </div>

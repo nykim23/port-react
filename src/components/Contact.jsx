@@ -41,12 +41,12 @@ const Contact = () => {
                         ))}
 
 
-                        <div>
-                            <a href="https://www.aaa" target="_blank" rel="noreferrer">kk</a> 
+                        {/* <div>
+                            <a href="https://www.aaa" target="_blank" rel="noreferrer">ny kim</a> 
                         </div>
                         <div>
-                            <a href="mailto:111@naver.com" target="_blank" rel="noreferrer">mail : 111@NAVER.COM</a>
-                        </div>
+                            <a href="mailto:sunchild23@naver.com" target="_blank" rel="noreferrer">mail : sunchild23@naver.com</a>
+                        </div> */}
                     </div>
                 </div>
                 <div className="contact__lines bottom" aria-hidden="true">

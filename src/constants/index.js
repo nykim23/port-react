@@ -147,13 +147,13 @@ export const portText = [
 
 
 export const contactText = [
+    // {
+    //     link:"http://",
+    //     title:"kk",
+    // },
     {
-        link:"http://",
-        title:"kk",
-    },
-    {
-        link:"mailto:111@naver.com",
-        title:"mail:111@naver.com",
+        link:"mailto:sunchild23@naver.com",
+        title:"mail:sunchild23@naver.com",
     }
 ];
 

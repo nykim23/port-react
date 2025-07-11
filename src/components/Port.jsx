@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 import { portText } from "../constants";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 
 // import port01 from "../assets/img/port01.jpg";
 // import port02 from "../assets/img/port02.jpg";
@@ -52,89 +57,22 @@ import { portText } from "../constants";
 // ]
 
 
-const Port = () => {
-    return (
-        <section id="port">
-            <div className="port__inner">
-                portfolio 포폴 작업물
-            </div>
-            <div className="port__wrap">
-                {portText.map((port,key) => (
-                    <article className={`port__item p${key+1}`} key={key}>
-                        <span className="num">{port.num}.</span>
-                        <a href={port.code} target="_blank" className="img" rel="noreferrer">
-                            <img src={port.img} alt={port.name} />
-                        </a>
-                        <h3 className="title">{port.title}</h3>
-                        <p className="desc">{port.desc}</p>
-                        <a href={port.view} target="_blank" className="site" rel="noreferrer">사이트보기</a>
-                    </article>
-                ))}
+function Port() {
+  const myElement = useRef(null);
 
+  useEffect(() => {
+    if (myElement.current) {
+      gsap.to(myElement.current, {
+        // your animation
+        scrollTrigger: {
+          trigger: myElement.current,
+          // other options
+        }
+      });
+    }
+  }, []);
 
-
-                {/* <article className="port__item p1">
-                    <span className="num">01.</span>
-                    <a href="http://github.com" target="_blank" className="img" rel="noreferrer">
-                        <img scr="../assets/img/port01.jpg" alt="포트폴리오" />
-                    </a>
-                    <h3 className="title">어워드에도 올라간 포트폴리오</h3>
-                    <p className="desc">
-                        라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오
-                    </p>
-                    <a href="http://" target="_blank" className="site" rel="noreferrer">사이트 보기</a>
-                </article>
-
-                <article className="port__item p1">
-                    <span className="num">01.</span>
-                    <a href="http://github.com" target="_blank" className="img" rel="noreferrer">
-                        <img scr="../assets/img/port01.jpg" alt="포트폴리오" />
-                    </a>
-                    <h3 className="title">어워드에도 올라간 포트폴리오</h3>
-                    <p className="desc">
-                        라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오
-                    </p>
-                    <a href="http://" target="_blank" className="site" rel="noreferrer">사이트 보기</a>
-                </article>
-
-                <article className="port__item p1">
-                    <span className="num">01.</span>
-                    <a href="http://github.com" target="_blank" className="img" rel="noreferrer">
-                        <img scr="../assets/img/port01.jpg" alt="포트폴리오" />
-                    </a>
-                    <h3 className="title">어워드에도 올라간 포트폴리오</h3>
-                    <p className="desc">
-                        라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오
-                    </p>
-                    <a href="http://" target="_blank" className="site" rel="noreferrer">사이트 보기</a>
-                </article>
-
-                <article className="port__item p1">
-                    <span className="num">01.</span>
-                    <a href="http://github.com" target="_blank" className="img" rel="noreferrer">
-                        <img scr="../assets/img/port01.jpg" alt="포트폴리오" />
-                    </a>
-                    <h3 className="title">어워드에도 올라간 포트폴리오</h3>
-                    <p className="desc">
-                        라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오
-                    </p>
-                    <a href="http://" target="_blank" className="site" rel="noreferrer">사이트 보기</a>
-                </article>
-
-                <article className="port__item p1">
-                    <span className="num">01.</span>
-                    <a href="http://github.com" target="_blank" className="img" rel="noreferrer">
-                        <img scr="../assets/img/port01.jpg" alt="포트폴리오" />
-                    </a>
-                    <h3 className="title">어워드에도 올라간 포트폴리오</h3>
-                    <p className="desc">
-                        라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오
-                    </p>
-                    <a href="http://" target="_blank" className="site" rel="noreferrer">사이트 보기</a>
-                </article> */}
-            </div>
-        </section>
-    )
+  return <div ref={myElement}>Content</div>;
 }
 
 export default Port;

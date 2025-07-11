@@ -1,10 +1,16 @@
 
 
 
-.form_box {width:800px;margin:0 auto;}
+.form_box {width:100%;margin:0 auto;}
 .form_box h3 {font-size: 30px;font-weight: bold;text-align: center;line-height: 50px;padding:10px 0;}
-.form-el {display: flex;margin-bottom:20px;}
-.form-el label {font-size:18px;color:rgb(85, 85, 85);min-width:200px;height:40px;line-height: 40px;}
+.form-el {
+    display: flex;margin-bottom:10px;width:100%;
+    flex-wrap: wrap;padding:0 20px;
+}
+.form-el label {
+    font-size:15px;color:rgb(85, 85, 85);min-width:90px;height:40px;
+    flex:1;letter-spacing: -.5px;
+}
 .form-el input {
     border:1px solid #ddd;border-radius: 6px;height:40px;line-height: 40px;
     padding:5px 10px;
@@ -12,13 +18,43 @@
 .form-el .message {
     height:40px;line-height: 24px;margin-left:20px;
     display: flex;align-items: center;
+    width:100%;margin-top:6px;
 }
-
+.form_box .btn_submit {
+    text-align: center;
+    padding:0 20px 40px;
+}
 .form_box .btn_submit button {
     padding:10px 20px;border-radius: 6px;
-    border:1px solid #575757;
+    border:1px solid rgb(255, 161, 38);
     background-color: rgb(255, 161, 38);
-    cursor: pointer;
+    cursor: pointer;width:100%;
+    color:#fff;
 }
 
-.btn_submit {text-align: right;}
+#main {max-width:1200px;margin:0 auto;}
+
+
+
+
+.scroll__container{
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  z-index: 1;
+}
+#top{
+  font-weight: bold;
+  font-size: 15px;
+  padding :15px 10px;
+  background-color: #000;
+  color:#fff;
+  border: 1px solid rgb(210, 204, 193);
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  transition:transform 0.3s ease;
+}
+#top:hover{
+  transform: scale(1.1);
+}

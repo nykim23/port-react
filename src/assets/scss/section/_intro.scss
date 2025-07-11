@@ -15,7 +15,7 @@
     }
 
     .intro__title {
-        font-size: 10vw;
+        font-size: 8vw;
         text-transform: uppercase;
         line-height: 1;
         font-weight: 800;
@@ -30,7 +30,7 @@
     .intro__text {
         width: 100%;
         height: 40vh;
-        background-color: var(--black);
+        background-color: var(--point);
         color: var(--white);
         display: flex;
         align-items: center;
@@ -86,7 +86,7 @@
             display: block;
             width: 100%;
             height: 1px;
-            background-color: var(--black);
+            background-color: var(--point02);
             margin-bottom: 0.5vw;
 
             &:nth-child(1){
