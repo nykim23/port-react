@@ -8,7 +8,7 @@ const link = () => {
             const targetElement = document.querySelector(targetId);
 
             if(targetElement) {
-                targetElement.scrollIntroView({ behavior: "smooth" });
+                targetElement.scrollIntoView({ behavior: "smooth" });
             }
         })
     })
