@@ -2,40 +2,50 @@
     width: 100%;
     margin-top: 30vh;
     // overflow: hidden;
-}
-.port__inner {
-    padding: 16px;
 
-    .port__title {
-        width: 100%;
-        height: 5vw;
-        font-size: 4vw;
-        font-weight: 900;
-        line-height: 1.6;
-        font-family: var(--mainKor-font);
-        text-transform: uppercase;
-        color: var(--black100);
-        border-bottom: 0.4vw solid var(--black100);
-        margin-bottom: 16px;
-        text-indent: -0.26vw;
 
-        em {
-            font-size: 1.25rem;
-            font-weight: 400;
-            line-height: 2;
+    .port__inner {
+        padding: 16px;
+        color: var(--white);
+        font-size: 1.5rem;
+
+        .port__title {
+            width: 100%;
+            height: 5vw;
+            font-size: 4vw;
+            font-weight: 900;
+            line-height: 1.6;
+            font-family: var(--mainKor-font);
+            text-transform: uppercase;
+            color: var(--white);
+            border-bottom: 0.4vw solid var(--black100);
+            margin-bottom: 16px;
+            text-indent: -0.26vw;
+
+            em {
+                font-size: 1.25rem;
+                font-weight: 400;
+                line-height: 2;
+            }
         }
     }
+
     .port__wrap {
         display: flex;
         flex-wrap: wrap;
-        width: 7000px;
+        width: 1000px;
+        margin:0 auto;
+        padding:0 50px;
 
         .port__item {
             width: 500px;
-            height: 70vh;
+            // height: 70vh;
             background-color: var(--subBg100);
             padding: 2.5rem;
             margin-right: 20px;
+            color: var(--white);
+            margin: 0 auto;
+            border-radius: 8px;
 
             &.p1 {
                 background-color: var(--subBg100);
@@ -70,11 +80,13 @@
             .num {
                 font-size: 2rem;
                 font-family: var(--mainNum-font);
+                color:var(--black400);
             }
             .img {
                 display: block;
                 margin-top: -20px;
                 transition: margin-top 0.3s;
+                color:var(--black400);
 
                 img {
                     border-radius: 5px;
@@ -98,9 +110,11 @@
                 color: var(--black100);
                 border-bottom: 2px solid var(--black100);
                 margin-bottom: 1rem;
+                color: var(--white);
             }
             .desc {
                 font-size: 1rem;
+                color: var(--white);
             }
             .site {
                 border: 1px solid var(--black100);
@@ -109,6 +123,7 @@
                 padding: 0.625rem 1.5rem;
                 margin-top: 1.5rem;
                 transition: all 0.2s;
+                cursor: pointer;
 
                 &:hover {
                     background-color: var(--black100);
@@ -117,4 +132,23 @@
             }
         }
     }
+
+    @media (max-width: 800px){ 
+        .port__wrap {
+            width:100%;padding:0 20px;
+            .port__item {
+                width:100%;
+                .img {margin-top:0;}
+            }
+        }
+        
+    }
+}
+
+
+.swiper-button-prev, .swiper-button-next {
+    color:#fff;
+    // background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
 }

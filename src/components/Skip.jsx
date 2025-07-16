@@ -1,11 +1,11 @@
 import React from "react";
 
-const Main = ({ children }) => {
+const Skip = () => {
     return (
-        <main id="main" role="main">
-            {children}
-        </main>
+
+        <div>1111</div>
+        
     )
 };
 
-export default Main;
+export default Skip;

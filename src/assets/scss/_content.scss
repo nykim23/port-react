@@ -2,7 +2,10 @@
 
 
 .form_box {width:100%;margin:0 auto;}
-.form_box h3 {font-size: 30px;font-weight: bold;text-align: center;line-height: 50px;padding:10px 0;}
+.form_box h3 {
+  font-size: 30px;font-weight: bold;text-align: center;line-height: 50px;padding:10px 0;
+  color:var(--blue02);
+}
 .form-el {
     display: flex;margin-bottom:10px;width:100%;
     flex-wrap: wrap;padding:0 20px;
@@ -10,15 +13,16 @@
 .form-el label {
     font-size:15px;color:rgb(85, 85, 85);min-width:90px;height:40px;
     flex:1;letter-spacing: -.5px;
+    color:var(--blue02);
 }
 .form-el input {
     border:1px solid #ddd;border-radius: 6px;height:40px;line-height: 40px;
-    padding:5px 10px;
+    padding:5px 10px;border-color:var(--blue02);
 }
 .form-el .message {
     height:40px;line-height: 24px;margin-left:20px;
     display: flex;align-items: center;
-    width:100%;margin-top:6px;
+    width:100%;margin-top:6px;color:var(--white);
 }
 .form_box .btn_submit {
     text-align: center;

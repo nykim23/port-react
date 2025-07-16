@@ -13,7 +13,7 @@ const Intro = () => {
     return (
          <section id="intro">
             <div className="intro__inner">
-                <h1 className="intro__title">port developer</h1>
+                <h1 className="intro__title">Web Publisher</h1>
                 <div className="intro__lines" aria-hidden="true">
                     <span className="line"></span>
                     <span className="line"></span>

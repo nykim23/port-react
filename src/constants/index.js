@@ -15,16 +15,16 @@ export const headerNav = [
         url:"#intro"
     },
     {
-        title: "skill",
-        url: "#skill"
-    },
-    {
-        title: "site",
+        title: "history",
         url: "#site"
     },
     {
         title: "portfolio",
         url: "#port"
+    },
+    {
+        title: "skill",
+        url: "#skill"
     },
     {
         title: "contact",
@@ -35,7 +35,7 @@ export const headerNav = [
 
 export const introText = {
     title:"port developer",
-    desc:["talent is", "found","effort"],
+    desc:["Web", "Publisher","nykim"],
 };
 
 export const skillText = [

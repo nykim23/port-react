@@ -4,6 +4,9 @@
     --mainNum-font: "gmarket";
   
     --mainBg-color: #f3ede8;
+    --mainBg-color02: #111215;
+    --mainBg-color03: #fff;
+    --mainBg-color04: #18191d;
     --subBg100: #cdc0b1;
     --subBg200: #afa395;
     --subBg300: #81887c;
@@ -16,6 +19,8 @@
     --black200: #434343;
     --black300: #686868;
     --black400: #e0e0e0;
+    --blue01: #007bff;
+    --blue02: #12c2e9;
 
 
     --point:#3189bf;
@@ -39,5 +44,5 @@
 }
   
 body {
-    background-color: var(--mainBg-color);
+    background-color: var(--mainBg-color04);
 }

@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomeView from "./views/HomeView";
 
 import SignUp from './components/SignUp';
-import Header from './components/Header';
+// import Header from './components/Header';
 
 
 import lenis from "./utils/lenis";
@@ -31,7 +31,7 @@ const App = () => {
       <SignUp />
 
 
-      <Header />
+      {/* <Header /> */}
       <ScrollTop />
     </div>
   );
