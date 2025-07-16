@@ -3,6 +3,7 @@ import React from "react";
 import about from "../assets/img/about.jpg";
 
 import { introText } from "../constants";
+import { FaReact } from "react-icons/fa";
 
 // const introText = {
 //     title:"port developer",
@@ -13,7 +14,11 @@ const Intro = () => {
     return (
          <section id="intro">
             <div className="intro__inner">
-                <h1 className="intro__title">Web Publisher</h1>
+                <div className="intro_flx">
+                    <FaReact className="react_icon" />
+                    <h1 className="intro__title">Web Publisher</h1>
+                </div>
+                
                 <div className="intro__lines" aria-hidden="true">
                     <span className="line"></span>
                     <span className="line"></span>

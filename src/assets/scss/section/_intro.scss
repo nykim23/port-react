@@ -15,7 +15,7 @@
     }
 
     .intro__title {
-        font-size: 6vw;
+        font-size: 5vw;
         text-transform: uppercase;
         line-height: 1;
         font-weight: 800;
@@ -158,3 +158,15 @@
 }
 
 .animate_box {margin-top:200px;color:#fff;}
+.react_icon {
+    color:#03a3d7;font-size:6vw;
+    animation:rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform : rotate(360deg);
+    }
+}
+
+.intro_flx {display: flex;align-items: center;gap:20px;}
