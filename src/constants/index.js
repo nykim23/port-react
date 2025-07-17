@@ -9,6 +9,62 @@ import port01 from "../assets/img/port01.png";
 // import port09 from "../assets/img/port09.jpg";
 // import port10 from "../assets/img/port10.jpg";
 
+
+
+
+
+import SlideTop01 from "../assets/img/svg_figma.svg";
+import SlideTop02 from "../assets/img/svg_git.svg";
+import SlideTop03 from "../assets/img/svg_react.svg";
+import SlideTop04 from "../assets/img/svg_zeplin.svg";
+// import SlideTop05 from "../assets/img/SlideTop05.png";
+
+
+
+
+
+
+export const introTopSlide = [
+    {
+        num:"01",
+        title:"어워드에도 올라간 포트폴리오",
+        desc:"라마",
+        img:SlideTop01,
+        // icon:<GoGitBranch />
+    },
+    {
+        num:"02",
+        title:"어워드에도 올라간 포트폴리오",
+        desc:"라마",
+        img:SlideTop02,
+        // icon:<GoGitBranch />
+    },
+    {
+        num:"03",
+        title:"어워드에도 올라간 포트폴리오",
+        desc:"라마",
+        img:SlideTop03,
+        // icon:<GoGitBranch />
+    },
+    {
+        num:"04",
+        title:"어워드에도 올라간 포트폴리오",
+        desc:"라마",
+        img:SlideTop04,
+        // icon:<GoGitBranch />
+    },
+    {
+        num:"05",
+        title:"어워드에도 올라간 포트폴리오",
+        desc:"라마",
+        // img:SlideTop05,
+        // icon:<GoGitBranch />
+    },
+]
+
+
+
+
 export const headerNav = [
     {
         title:"intro",

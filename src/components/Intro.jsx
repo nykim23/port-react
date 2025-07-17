@@ -5,15 +5,46 @@ import about from "../assets/img/about.jpg";
 import { introText } from "../constants";
 import { FaReact } from "react-icons/fa";
 
+import AutoPlay from "../components/AutoPlay";
+
+
+import ScrollCarousel from "scroll-carousel-react";
+import { introTopSlide } from "../constants";
+
+
+
+import { GoGitBranch } from "react-icons/go";
+
+
+
+
+
 // const introText = {
 //     title:"port developer",
 //     desc:["talent is", "found","effort"],
 // };
 
 const Intro = () => {
+
+
     return (
          <section id="intro">
             <div className="intro__inner">
+                <AutoPlay />
+                <GoGitBranch />
+                {/* <ScrollCarousel
+                    autoplay
+                    autoplaySpeed={8}
+                    speed={7}
+                > */}
+                    {/* {introTopSlide.map((imgTop, key) => (
+                        <li key={key}>
+                            {imgTop.icon}<br />
+                            <img src={imgTop.img} />
+                        </li>
+                    ))} */}
+                    
+                {/* </ScrollCarousel> */}
                 <div className="intro_flx">
                     <FaReact className="react_icon" />
                     <h1 className="intro__title">Web Publisher</h1>
