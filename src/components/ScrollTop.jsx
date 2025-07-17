@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { FaCircleArrowUp } from "react-icons/fa6";
 
 const TopButton = () => {
 
@@ -33,7 +34,7 @@ const TopButton = () => {
 
     return (
         <div className="scroll__container">
-            <button id="top" onClick={scrollToTop} type="button">Top</button>
+            <button id="top" onClick={scrollToTop} type="button"><FaCircleArrowUp /></button>
         </div>
     )
 }

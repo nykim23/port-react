@@ -174,16 +174,28 @@
 
 .slide-container {
     width:400px;margin:0 auto 100px;height:100px;
+    @media (max-width: 360px){ 
+        width:300px;
+        margin-bottom:30px;
+    }
 }
 .slick-slide {
     background-color: #18191d;height:100px;
+    @media (max-width: 360px){ 
+        height:80px;
+    }
 }
 
 
 .slick-slide svg {
     color:rgb(255, 255, 255);
     width:100px;height:100px;
+    @media (max-width: 360px){ 
+        width:80px;
+        height:80px;
+    }
 }
+
 
 .slick-slide .list01 svg {background-color: #00ac81;}
 .slick-slide .list02 svg {background-color: #ff9e0d;}

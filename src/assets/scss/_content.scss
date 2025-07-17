@@ -1,7 +1,7 @@
 
 
 
-.form_box {width:100%;margin:0 auto;}
+.form_box {width:100%;margin:0 auto;max-width:760px;}
 .form_box h3 {
   font-size: 30px;font-weight: bold;text-align: center;line-height: 50px;padding:10px 0;
   color:var(--blue02);
@@ -12,15 +12,15 @@
 }
 .form-el label {
     font-size:15px;color:rgb(85, 85, 85);min-width:90px;height:40px;
-    flex:1;letter-spacing: -.5px;
-    color:var(--blue02);
+    letter-spacing: -.5px;
+    color:var(--blue02);padding-top:9px;width:150px;
 }
 .form-el input {
     border:1px solid #ddd;border-radius: 6px;height:40px;line-height: 40px;
-    padding:5px 10px;border-color:var(--blue02);
+    padding:5px 10px;flex:1;
 }
 .form-el .message {
-    height:40px;line-height: 24px;margin-left:20px;
+    height:40px;line-height: 24px;
     display: flex;align-items: center;
     width:100%;margin-top:6px;color:var(--white);
 }
@@ -30,10 +30,11 @@
 }
 .form_box .btn_submit button {
     padding:10px 20px;border-radius: 6px;
-    border:1px solid rgb(255, 161, 38);
-    background-color: rgb(255, 161, 38);
+    border:1px solid #12c2e9;
+    background-color: #12c2e9;
     cursor: pointer;width:100%;
     color:#fff;
+    max-width:300px;
 }
 
 #main {max-width:1200px;margin:0 auto;}
@@ -50,14 +51,31 @@
 #top{
   font-weight: bold;
   font-size: 15px;
-  padding :15px 10px;
-  background-color: #000;
-  color:#fff;
-  border: 1px solid rgb(210, 204, 193);
+  // padding :15px 10px;
+  // background-color: #000;
+  // color:#fff;
+  border: 1px solid #000;
   border-radius: 50%;
   outline: none;
+  width:50px;
+  height:50px;
   cursor: pointer;
   transition:transform 0.3s ease;
+  position: relative;
+  @media (max-width: 360px){ 
+      width:30px;
+      height:30px;
+  }
+}
+#top svg {
+  width:50px;height:50px;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  @media (max-width: 360px){ 
+      width:30px;
+      height:30px;
+  }
 }
 #top:hover{
   transform: scale(1.1);

@@ -16,7 +16,7 @@ import { IoLogoGithub } from "react-icons/io5";
 
 function AutoPlay() {
     const settings = {
-        dots:true,
+        dots:false,
         infinite:true,
         slidesToShow:3,
         slidesToScroll:1,

@@ -54,7 +54,7 @@ const Site = () => {
     return (
         <section id="site">
             <div className="site__inner">
-                <h2 className="site_title">Site coding 나의 작업물</h2>
+                <h2 className="site__title">Site coding 나의 작업물</h2>
                 <div className="site__wrap">
 
                     {siteText.map((site,key) => (

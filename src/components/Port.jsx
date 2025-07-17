@@ -100,7 +100,9 @@ const Port = () => {
     // <div ref={myElement}>Content</div>
     <section id="port">
         <div className="port__inner">
-            portfolio 포폴 작업물
+            <h2 className="port__title">
+                portfolio 포폴 작업물
+            </h2>
         </div>
         <div className="port__wrap">
 
