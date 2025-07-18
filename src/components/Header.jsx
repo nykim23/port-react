@@ -4,6 +4,8 @@ import React, {useState} from "react";
 
 import { headerNav } from "../constants";
 import nyLogo from "../assets/img/nyLogo.png";
+import nyLogo2 from "../assets/img/nyLogo2.png";
+import nyLogo3 from "../assets/img/nyLogo3.png";
 import { NavSidebar } from "./NavSidebar";
 
 

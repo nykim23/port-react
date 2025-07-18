@@ -35,7 +35,8 @@ const Contact = () => {
                                 <a href={contact.link}
                                 rel="noopener noreferrer"
                                 target="_blank">
-                                    {contact.title}
+                                    {contact.title}<br />
+                                    {contact.email}
                                 </a>
                             </div>
                         ))}

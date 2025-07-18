@@ -24,7 +24,7 @@ const Skill = () => {
         <section id="skill">
             <div className="skill__inner">
                 <h2 className="skill__title">
-                    Challenge 나의도전
+                    Skill & tool
                 </h2>
                 <div className="skill__desc">
                     <div>

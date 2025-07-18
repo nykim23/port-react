@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import Intro from "../components/Intro";
 import Skill from "../components/Skill";
 import Site from "../components/Site";
@@ -18,7 +18,7 @@ const HomeView = () => {
         <>
             <Skip />
             
-            <Header />
+            {/* <Header /> */}
             
             <Main>
                 {/* <Animate /> */}
@@ -27,7 +27,7 @@ const HomeView = () => {
                     <button>제 포트폴리오에 방문해 주셔서 감사합니다!</button>
                 </Tooltip>
                 <Intro />
-                <AnimateTest />
+                {/* <AnimateTest /> */}
                 <Site />
                 <Port />
                 <Skill />

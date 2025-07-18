@@ -1,10 +1,21 @@
 
 
 
-.form_box {width:100%;margin:0 auto;max-width:760px;}
+.form_box {
+  width:100%;margin:75px auto 0;max-width:760px;
+  display:none;
+  @media (max-width: 800px){
+      margin:90px auto 0;
+  }
+}
+
+.form_box.view {display:block;}
 .form_box h3 {
-  font-size: 30px;font-weight: bold;text-align: center;line-height: 50px;padding:10px 0;
-  color:var(--blue02);
+  font-size: 30px;font-weight: bold;text-align: center;line-height: 50px;
+  padding:30px 0;color:var(--blue02);
+  @media (max-width: 800px){
+      padding:10px 0;font-size:24px;
+  }
 }
 .form-el {
     display: flex;margin-bottom:10px;width:100%;
@@ -62,6 +73,7 @@
   cursor: pointer;
   transition:transform 0.3s ease;
   position: relative;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   @media (max-width: 360px){ 
       width:30px;
       height:30px;

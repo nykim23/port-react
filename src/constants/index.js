@@ -209,7 +209,8 @@ export const contactText = [
     // },
     {
         link:"mailto:sunchild23@naver.com",
-        title:"mail:sunchild23@naver.com",
+        title:"mailto:",
+        email:"sunchild23@naver.com",
     }
 ];
 

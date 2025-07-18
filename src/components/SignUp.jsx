@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const SignUp = () => {
+const SignUp = ({ show }) => {
 
 
     //초기값 셋팅 - 아이디, 닉네임, 비밀번호, 비밀번호확인, 이메일, 전화번호, 생년월일
@@ -148,8 +148,11 @@ const SignUp = () => {
         setIsBirth(true);
     };
 
+    // const [show, setShow] = useState(false);
+
     return (
-        <div className="form_box">
+        <div className={`form_box${show ? " view":""}`}>
+
             <h3>Sign up</h3>
 
             <div className="form">
@@ -162,7 +165,7 @@ const SignUp = () => {
 
             <div className="form-el">
                 <label htmlFor='name'>Nick Name</label>
-                <input id="name" name="name" value={name} onChange={onChangeName} />
+                <input id="name" name="name" value={name} onChange={onChangeName} autoComplete="name" />
                 <p className='message'>{nameMessage}</p>
             </div>
 
@@ -181,7 +184,7 @@ const SignUp = () => {
 
             <div className="form-el">
                 <label htmlFor="email">Email</label>
-                <input id="email" name="email" value={email} onChange={onChangeEmail} />
+                <input id="email" name="email" value={email} onChange={onChangeEmail} autoComplete="email" />
                 <p className="message">{emailMessage}</p>
             </div>
 
