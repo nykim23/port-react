@@ -54,7 +54,7 @@ const Site = () => {
     return (
         <section id="site">
             <div className="site__inner">
-                <h2 className="site__title">나의 프로젝트 (history)</h2>
+                <h2 className="site__title">portfolio 포폴 작업물</h2>
                 <div className="site__wrap">
 
                     {siteText.map((site,key) => (
@@ -76,6 +76,9 @@ const Site = () => {
                                 <span>{site.info[0]}</span>
                                 <span>{site.info[1]}</span>
                                 <span>{site.info[2]}</span>
+                            </div>
+                            <div>
+                                <img src={site.img} />
                             </div>
                         </article>
                     ))}

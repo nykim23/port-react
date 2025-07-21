@@ -5,7 +5,7 @@ import about from "../assets/img/about.jpg";
 import { introText } from "../constants";
 import { FaReact } from "react-icons/fa";
 
-import AutoPlay from "../components/AutoPlay";
+
 
 
 import ScrollCarousel from "scroll-carousel-react";
@@ -30,7 +30,7 @@ const Intro = () => {
     return (
          <section id="intro">
             <div className="intro__inner">
-                <AutoPlay />
+                
                 <GoGitBranch />
                 {/* <ScrollCarousel
                     autoplay
@@ -82,6 +82,8 @@ const Intro = () => {
                     <span className="line"></span>
                     <span className="line"></span>
                 </div>
+
+                
             </div>
         </section>
     )

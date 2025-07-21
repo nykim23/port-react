@@ -11,18 +11,19 @@ import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoReact } from "react-icons/io5";
 import { RiNextjsFill } from "react-icons/ri";
 import { FaJs } from "react-icons/fa";
-import { IoLogoGithub } from "react-icons/io5";
+// import { IoLogoGithub } from "react-icons/io5";
+import { FaVuejs } from "react-icons/fa";
 
 
 function AutoPlay() {
     const settings = {
         dots:false,
         infinite:true,
-        slidesToShow:3,
+        slidesToShow:4,
         slidesToScroll:1,
         autoplay:true,
         speed: 2000,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 1000,
         cssEase: "linear"
     };
 
@@ -34,7 +35,7 @@ function AutoPlay() {
                 <div className="list03"><IoLogoReact /></div>
                 <div className="list04"><RiNextjsFill /></div>
                 <div className="list05"><FaJs /></div>
-                <div className="list06"><IoLogoGithub /></div>
+                <div className="list06"><FaVuejs /></div>
             </Slider>
         </div>
     )

@@ -11,6 +11,9 @@ import 'swiper/css/navigation';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 
+
+import { skillText } from "../constants";
+
 gsap.registerPlugin(ScrollTrigger);
 
 
@@ -101,10 +104,54 @@ const Port = () => {
     <section id="port">
         <div className="port__inner">
             <h2 className="port__title">
-                portfolio 포폴 작업물
+                나의 프로젝트
             </h2>
         </div>
         <div className="port__wrap">
+
+            {/* <div className="flx_box">
+                <span>1.</span>
+                <span className="date">2025년 04월 ~ 2025년 08월</span>
+                <h3>교보생명 FP소장 AI Assistance 고도화</h3>
+                <p>
+                    교보생명 FP소장 AI Assistance 퍼블리싱 업무
+                </p>
+            </div>
+
+            <div>
+                <span>2. 2024년 09월 ~ 2025년 01월</span>
+                <h3>신한카드 장기렌터카 반응형 구축</h3>
+                <p>
+                    신한카드 장기렌터카 반응형 퍼블리싱 업무
+                </p>
+            </div>
+
+            <div>
+                <span>3. 2024년 08월 ~ 2024년 08월</span>
+                <h3>두산그룹 FCM 내부 시스템</h3>
+                <p>
+                    두산그룹 FCM 내부 시스템 퍼블리싱 업무
+                </p>
+            </div> */}
+
+            <div className="flx_box">
+                {skillText.map((skill,key) => (
+                    <div key={key} className="flx_box">
+                        <div className="flx_box_center">
+                            <div>
+                                <span>{key + 1}</span>
+                                <span className="date">{skill.date}</span>
+                                <h3>{skill.title}</h3>
+                                <p>{skill.desc}</p>
+                                <p>{skill.work}</p>
+                            </div>
+                            <p className="img-box"><img src={skill.img} alt="" className={`img` + (key + 1)} /></p>
+                        </div>
+                        
+                    </div>
+                ))}
+            </div>
+            
 
             <Swiper 
                 slidesPerView={1}

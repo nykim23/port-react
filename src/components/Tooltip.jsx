@@ -1,6 +1,9 @@
-import React from "react";
+import React, { Component } from "react";
 import { usePopperTooltip } from "react-popper-tooltip";
 import "react-popper-tooltip/dist/styles.css";
+
+import RotatingText from "react-rotating-text";
+// import 'rotating-text/dist/index.css';
 
 const Tooltip = ({ tooltip, children, ...props }) => {
   const {
@@ -29,6 +32,14 @@ const Tooltip = ({ tooltip, children, ...props }) => {
         </div>
       )}
 
+      <RotatingText
+        text="HOVERME"
+        stagger={0.1}
+        timing={0.5}
+        className="rotating-text"
+        styles={{ fontSize: '100px' }}
+        items={['React', 'Vue', 'JS', 'HTML', 'SCSS']}
+      />
       
     </>
   );

@@ -3,6 +3,8 @@
 }
 .footer__inner {
     padding: 16px;
+    max-width:1200px;
+    margin:0 auto;
 
     .footer__text {
         font-size: 12px;
@@ -42,6 +44,7 @@
                 button {
                     background-color: transparent;
                     color:#fff;
+                    cursor: pointer;
                 }
                 &:hover {
                     // background-color: var(--black400);

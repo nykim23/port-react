@@ -48,7 +48,7 @@
     max-width:300px;
 }
 
-#main {max-width:1200px;margin:0 auto;}
+#main {max-width:1200px;margin:0 auto;position: relative;}
 
 
 
@@ -73,7 +73,7 @@
   cursor: pointer;
   transition:transform 0.3s ease;
   position: relative;
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  box-shadow: 0 15px 12px rgba(0, 0, 0, 0.22);
   @media (max-width: 360px){ 
       width:30px;
       height:30px;
@@ -92,3 +92,19 @@
 #top:hover{
   transform: scale(1.1);
 }
+
+.tooltip_box {position: absolute;left:50%;top:150px;transform: translateX(-50%);}
+.tooltip_box button {
+  background-color:#12c2e9;color:#fff;
+  border-radius: 15px;
+  padding:10px 20px;
+  font-size:14px;
+}
+
+.tooltip-container {
+  background-color: #fff;padding:5px 10px;border-radius: 15px;line-height: 20px;font-size:13px;
+  margin-top:5px;
+}
+
+.rotating-text {color:#8be9fd !important;display: inline-block;position: absolute;top:150px;}
+.react-rotating-text-cursor {color:#fff;}

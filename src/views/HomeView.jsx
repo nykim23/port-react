@@ -16,7 +16,7 @@ import Tooltip from "../components/Tooltip";
 const HomeView = () => {
     return (
         <>
-            <Skip />
+            
             
             {/* <Header /> */}
             
@@ -24,13 +24,15 @@ const HomeView = () => {
                 {/* <Animate /> */}
 
                 <Tooltip tooltip="오늘도 좋은 하루 되세요!">
-                    <button>제 포트폴리오에 방문해 주셔서 감사합니다!</button>
+                    <button>제 React 포트폴리오에 방문해 주셔서 감사합니다!</button>
                 </Tooltip>
                 <Intro />
                 {/* <AnimateTest /> */}
-                <Site />
+                
                 <Port />
+                <Site />
                 <Skill />
+                <Skip />
                 <Contact />
                 <Tooltip />
             </Main>
