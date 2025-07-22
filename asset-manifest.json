@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/port-react/static/css/main.aa88ba14.css",
-    "main.js": "/port-react/static/js/main.751c225b.js",
+    "main.js": "/port-react/static/js/main.0c983e0a.js",
     "static/js/238.bb775bb8.chunk.js": "/port-react/static/js/238.bb775bb8.chunk.js",
     "static/media/redcap.png": "/port-react/static/media/redcap.6f6c397cef4e837258a8.png",
     "static/media/nyLogo3.png": "/port-react/static/media/nyLogo3.6a72f823157ffff2e6d8.png",
@@ -15,7 +15,7 @@
     "static/media/tce.jpg": "/port-react/static/media/tce.79d62fcc359c22e620a1.jpg",
     "static/media/etri.jpg": "/port-react/static/media/etri.36c8cf8052fb68d8e656.jpg",
     "static/media/lgAppsTV2.jpg": "/port-react/static/media/lgAppsTV2.7ca185d420ee1c42fee6.jpg",
-    "static/media/twosome.jpg": "/port-react/static/media/twosome.ae416879e34972a8d675.jpg",
+    "static/media/twosome.jpg": "/port-react/static/media/twosome.ab58ab314229dfb8257d.jpg",
     "static/media/skt_001.png": "/port-react/static/media/skt_001.40c740d95f1e932aa409.png",
     "static/media/hipis.jpeg": "/port-react/static/media/hipis.a497f4e00d746266b3e1.jpeg",
     "static/media/lgservice.jpg": "/port-react/static/media/lgservice.ac8efff01a468c8aa051.jpg",
@@ -45,11 +45,11 @@
     "static/media/zeplin.svg": "/port-react/static/media/zeplin.b22c4f3df33d66eab3cc4ecf33fe00df.svg",
     "index.html": "/port-react/index.html",
     "main.aa88ba14.css.map": "/port-react/static/css/main.aa88ba14.css.map",
-    "main.751c225b.js.map": "/port-react/static/js/main.751c225b.js.map",
+    "main.0c983e0a.js.map": "/port-react/static/js/main.0c983e0a.js.map",
     "238.bb775bb8.chunk.js.map": "/port-react/static/js/238.bb775bb8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa88ba14.css",
-    "static/js/main.751c225b.js"
+    "static/js/main.0c983e0a.js"
   ]
 }
