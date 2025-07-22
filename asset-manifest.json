@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/port-react/static/css/main.361b9d70.css",
+    "main.js": "/port-react/static/js/main.fd3133b9.js",
+    "static/js/238.bb775bb8.chunk.js": "/port-react/static/js/238.bb775bb8.chunk.js",
+    "static/media/redcap.png": "/port-react/static/media/redcap.6f6c397cef4e837258a8.png",
+    "static/media/nyLogo3.png": "/port-react/static/media/nyLogo3.6a72f823157ffff2e6d8.png",
+    "static/media/kosha.png": "/port-react/static/media/kosha.147eafeec20d972ed59a.png",
+    "static/media/law.png": "/port-react/static/media/law.073fdf1c194d7cf3b6c1.png",
+    "static/media/nyLogo2.png": "/port-react/static/media/nyLogo2.49b28cde9b1cf251d521.png",
+    "static/media/den-all.png": "/port-react/static/media/den-all.116a17a69b5e45608948.png",
+    "static/media/ethics.png": "/port-react/static/media/ethics.4f33025aada5a7ca8ba3.png",
+    "static/media/port01.png": "/port-react/static/media/port01.bbc04b8952f8645d6f6b.png",
+    "static/media/mycar_shinhancard.png": "/port-react/static/media/mycar_shinhancard.166f8b83d3a8c1038565.png",
+    "static/media/tce.jpg": "/port-react/static/media/tce.79d62fcc359c22e620a1.jpg",
+    "static/media/etri.jpg": "/port-react/static/media/etri.36c8cf8052fb68d8e656.jpg",
+    "static/media/lgAppsTV2.jpg": "/port-react/static/media/lgAppsTV2.7ca185d420ee1c42fee6.jpg",
+    "static/media/twosome.jpg": "/port-react/static/media/twosome.ae416879e34972a8d675.jpg",
+    "static/media/skt_001.png": "/port-react/static/media/skt_001.40c740d95f1e932aa409.png",
+    "static/media/hipis.jpeg": "/port-react/static/media/hipis.a497f4e00d746266b3e1.jpeg",
+    "static/media/lgservice.jpg": "/port-react/static/media/lgservice.ac8efff01a468c8aa051.jpg",
+    "static/media/counsel.png": "/port-react/static/media/counsel.9e953ed2eb2e8c98999c.png",
+    "static/media/fpm.png": "/port-react/static/media/fpm.95f3c18259f5743f9696.png",
+    "static/media/nyLogo.png": "/port-react/static/media/nyLogo.2e32688cbf03247e42c6.png",
+    "static/media/smart_app.png": "/port-react/static/media/smart_app.2c17a61c1582a8de6d0a.png",
+    "static/media/smart_onbid_app.png": "/port-react/static/media/smart_onbid_app.dc101c9e612a57bd959f.png",
+    "static/media/lgcsapp.png": "/port-react/static/media/lgcsapp.0520f6de4769ed5eb2a9.png",
+    "static/media/about.png": "/port-react/static/media/about.7016be6ed1106372af37.png",
+    "static/media/about.jpg": "/port-react/static/media/about.2a15529f47b8d717981f.jpg",
+    "static/media/zeplin.svg": "/port-react/static/media/zeplin.b22c4f3df33d66eab3cc4ecf33fe00df.svg",
+    "index.html": "/port-react/index.html",
+    "main.361b9d70.css.map": "/port-react/static/css/main.361b9d70.css.map",
+    "main.fd3133b9.js.map": "/port-react/static/js/main.fd3133b9.js.map",
+    "238.bb775bb8.chunk.js.map": "/port-react/static/js/238.bb775bb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.361b9d70.css",
+    "static/js/main.fd3133b9.js"
+  ]
+}
