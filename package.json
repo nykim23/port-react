@@ -1,4 +1,5 @@
 {
+  "homepage": "https://nykim23.github.io/port-react/",
   "name": "port-react",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +10,6 @@
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "awesome-react-icons": "^1.4.8",
-    "gh-pages": "^6.3.0",
     "gsap": "^3.13.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -31,9 +31,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
-    "homepage": "https://nykim23.github.io/port-react/"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -52,5 +51,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
