@@ -22,7 +22,7 @@ const Skip = () => {
         <section id="port">
             <div className="port__inner">
                 <h2 className="port__title">
-                    portfolio 포폴 작업물
+                    기타사항
                 </h2>
             </div>
             <div className="port__wrap">

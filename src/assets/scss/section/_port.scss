@@ -67,29 +67,31 @@
 
         .flx_box {
             display:flex;flex-direction: column;
-            .date {font-size:1.2vw;font-weight: 500;}
+            .date {font-size:1.2vw;font-weight: 500;margin-left:20px;display: inline-block;}
             .img-box {
                 margin-top:50px;
-                .img1 {width:355px;}
-                .img2 {width:800px;}
-                .img3 {width:800px;}
+
+                // [class*="img"] {}
+                .img1 {width:240px;background-color:#fff;padding:10px 20px;}
+                .img2 {width:240px;}
+                .img3 {width:240px;background-color:#fff;padding:10px 20px;}
                 .img4 {width:1000px;}
-                .img5 {width:355px;}
-                .img6 {width:355px;}
-                .img7 {width:355px;}
-                .img8 {width:355px;}
-                .img9 {width:355px;}
-                .img10 {width:355px;}
-                .img11 {width:355px;}
+                .img5 {width:240px;background-color:#fff;padding:10px 20px;}
+                .img6 {width:240px;background-color:#fff;padding:10px 20px;}
+                .img7 {width:240px;background-color:#fff;padding:10px 20px;}
+                .img8 {width:240px;background-color:#fff;padding:10px 20px;}
+                .img9 {width:240px;background-color:#fff;padding:10px 20px;}
+                .img10 {width:240px;}
+                .img11 {width:240px;background-color:#fff;padding:10px 20px;}
                 .img12 {width:355px;}
-                .img13 {width:355px;}
-                .img14 {width:355px;}
-                .img15 {width:355px;}
-                .img16 {width:355px;}
-                .img17 {width:355px;}
-                .img18 {width:355px;}
-                .img19 {width:355px;}
-                .img20 {width:355px;}
+                .img13 {width:240px;background-color:#fff;padding:10px 20px;}
+                .img14 {width:240px;background-color:#fff;padding:10px 20px;}
+                .img15 {width:240px;}
+                .img16 {width:240px;background-color:#fff;padding:10px 20px;}
+                .img17 {width:240px;background-color:#fff;padding:10px 20px;}
+                .img18 {width:240px;background-color:#fff;padding:10px 20px;}
+                .img19 {width:200px;}
+                .img20 {width:240px;background-color:#fff;padding:10px 20px;}
             }
         }
 
@@ -97,6 +99,7 @@
             display:flex;
             justify-content: space-between;
             flex-wrap: wrap;
+            margin-bottom:15vh;
 
             div {width:500px;}
         }

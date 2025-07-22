@@ -99,11 +99,14 @@
                 li {
                     border-bottom: 1px solid var(--white);
                     
+                    
                     a {
                         padding: 14px 0;
                         font-size: 14px;
                         display: inline-block;
                         text-transform: uppercase;
+                        cursor: pointer;
+                        min-width:70px;
                     }
                     em {
                         font-size: 12px;

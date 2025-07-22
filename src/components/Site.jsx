@@ -77,8 +77,8 @@ const Site = () => {
                                 <span>{site.info[1]}</span>
                                 <span>{site.info[2]}</span>
                             </div>
-                            <div>
-                                <img src={site.img} />
+                            <div className="img_center">
+                                <img src={site.img} /><img src={site.img2} />
                             </div>
                         </article>
                     ))}

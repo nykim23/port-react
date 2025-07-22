@@ -153,7 +153,7 @@ const Port = () => {
             </div>
             
 
-            <Swiper 
+            {/* <Swiper 
                 slidesPerView={1}
                 spaceBetween={15}
                 navigation={true}
@@ -207,71 +207,7 @@ const Port = () => {
                 </SwiperSlide>
             ))}
 
-
-
-            {/* <article className="port__item p1">
-                <span className="num">01.</span>
-                <a href="http://github.com" target="_blank" className="img" rel="noreferrer">
-                    <img scr="../assets/img/port01.jpg" alt="포트폴리오" />
-                </a>
-                <h3 className="title">어워드에도 올라간 포트폴리오</h3>
-                <p className="desc">
-                    라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오
-                </p>
-                <a href="http://" target="_blank" className="site" rel="noreferrer">사이트 보기</a>
-            </article>
-
-            <article className="port__item p1">
-                <span className="num">01.</span>
-                <a href="http://github.com" target="_blank" className="img" rel="noreferrer">
-                    <img scr="../assets/img/port01.jpg" alt="포트폴리오" />
-                </a>
-                <h3 className="title">어워드에도 올라간 포트폴리오</h3>
-                <p className="desc">
-                    라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오
-                </p>
-                <a href="http://" target="_blank" className="site" rel="noreferrer">사이트 보기</a>
-            </article>
-
-            <article className="port__item p1">
-                <span className="num">01.</span>
-                <a href="http://github.com" target="_blank" className="img" rel="noreferrer">
-                    <img scr="../assets/img/port01.jpg" alt="포트폴리오" />
-                </a>
-                <h3 className="title">어워드에도 올라간 포트폴리오</h3>
-                <p className="desc">
-                    라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오
-                </p>
-                <a href="http://" target="_blank" className="site" rel="noreferrer">사이트 보기</a>
-            </article>
-
-            <article className="port__item p1">
-                <span className="num">01.</span>
-                <a href="http://github.com" target="_blank" className="img" rel="noreferrer">
-                    <img scr="../assets/img/port01.jpg" alt="포트폴리오" />
-                </a>
-                <h3 className="title">어워드에도 올라간 포트폴리오</h3>
-                <p className="desc">
-                    라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오
-                </p>
-                <a href="http://" target="_blank" className="site" rel="noreferrer">사이트 보기</a>
-            </article>
-
-            <article className="port__item p1">
-                <span className="num">01.</span>
-                <a href="http://github.com" target="_blank" className="img" rel="noreferrer">
-                    <img scr="../assets/img/port01.jpg" alt="포트폴리오" />
-                </a>
-                <h3 className="title">어워드에도 올라간 포트폴리오</h3>
-                <p className="desc">
-                    라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오
-                </p>
-                <a href="http://" target="_blank" className="site" rel="noreferrer">사이트 보기</a>
-            </article> */}
-
-
-
-            </Swiper>
+            </Swiper> */}
         </div>
     </section>
 

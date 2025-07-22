@@ -79,9 +79,14 @@
                 flex-direction: column;
                 position: sticky;
                 left: 0;
+                padding-bottom:50px;
 
+
+
+
+                    
                 &.s1 {
-                    background-color: var(--subBg100);
+                    background-color: rgba(205, 192, 177, .5);
                     top: 180px;
 
                     @media (max-width: 800px){ 
@@ -145,6 +150,46 @@
                         top: 200px;
                     }
                 }
+                &.s9 {
+                    background-color: var(--subBg400);
+                    top: 340px;
+
+                    @media (max-width: 800px){ 
+                        top: 220px;
+                    }
+                }
+                &.s10 {
+                    background-color: var(--subBg400);
+                    top: 360px;
+
+                    @media (max-width: 800px){ 
+                        top: 240px;
+                    }
+                }
+                &.s11 {
+                    background-color: var(--subBg400);
+                    top: 380px;
+
+                    @media (max-width: 800px){ 
+                        top: 260px;
+                    }
+                }
+                &.s12 {
+                    background-color: var(--subBg400);
+                    top: 400px;
+
+                    @media (max-width: 800px){ 
+                        top: 280px;
+                    }
+                }
+                &.s13 {
+                    background-color: var(--subBg400);
+                    top: 420px;
+
+                    @media (max-width: 800px){ 
+                        top: 300px;
+                    }
+                }
 
 
 
@@ -176,6 +221,7 @@
                         text-decoration: underline;
                         font-family: var(--mainEng-font);
                         color:#213547;
+                        margin-top:12px;
 
                         @media (max-width: 800px){ 
                             font-size: 26px;
@@ -187,8 +233,12 @@
                 .title {
                     font-family: var(--mainKor-font);
                     margin-bottom: 1rem;
+                    font-size:1rem;
                 }
                 .btn {
+                    position: absolute;
+                    right:20px;
+                    bottom:50px;
                     a {
                         text-decoration: underline;
                         text-transform: uppercase;
@@ -226,6 +276,13 @@
                         padding: 3px 0;
                         text-transform: uppercase;
                     }
+                }
+
+                .img_center {
+                    height:400px;
+                    display:flex;
+                    gap:20px;
+                    img {vertical-align: top;height:400px;}
                 }
             }
         }

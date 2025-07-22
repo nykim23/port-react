@@ -41,33 +41,37 @@ import PortImg17 from "../assets/img/pf/lgservice.jpg"
 import PortImg18 from "../assets/img/pf/lgAppsTV2.jpg"
 
 
+import PortImg01_1 from "../assets/img/pf/voc.png"
 
 
 
 
 
-import HistoryImg01 from "../assets/img/pf/fpm.png"
-import HistoryImg02 from "../assets/img/pf/mycar_shinhancard.png"
-import HistoryImg03 from "../assets/img/pf/kosha.png"
-import HistoryImg04 from "../assets/img/pf/skt_001.png"
-import HistoryImg05 from "../assets/img/pf/den-all.png"
-import HistoryImg06 from "../assets/img/pf/twosome.jpg"
-import HistoryImg07 from "../assets/img/pf/law.png"
-import HistoryImg08 from "../assets/img/pf/smart_onbid_app.png"
-import HistoryImg09 from "../assets/img/pf/smart_app.png"
-import HistoryImg10 from "../assets/img/pf/redcap.png"
-import HistoryImg11 from "../assets/img/pf/ethics.png"
-import HistoryImg12 from "../assets/img/pf/counsel.png"
-import HistoryImg13 from "../assets/img/pf/lgcsapp.png"
-import HistoryImg14 from "../assets/img/pf/etri.jpg"
-import HistoryImg15 from "../assets/img/pf/hipis.jpeg"
-import HistoryImg16 from "../assets/img/pf/tce.jpg"
-import HistoryImg17 from "../assets/img/pf/lgservice.jpg"
-import HistoryImg18 from "../assets/img/pf/lgAppsTV2.jpg"
-import HistoryImg19 from "../assets/img/pf/lgAppsTV2.jpg"
-import HistoryImg20 from "../assets/img/pf/lgAppsTV2.jpg"
-import HistoryImg21 from "../assets/img/pf/lgAppsTV2.jpg"
-import HistoryImg22 from "../assets/img/pf/lgAppsTV2.jpg"
+
+
+import HistoryImg01 from "../assets/img/logo/logo01.png"
+import HistoryImg02 from "../assets/img/logo/logo02.jpg"
+import HistoryImg03 from "../assets/img/logo/logo03.jpg"
+import HistoryImg04 from "../assets/img/logo/logo04.jpg"
+import HistoryImg05 from "../assets/img/logo/logo05.png"
+import HistoryImg06 from "../assets/img/logo/logo06.png"
+import HistoryImg07 from "../assets/img/logo/logo07.png"
+import HistoryImg08 from "../assets/img/logo/logo08.png"
+import HistoryImg09 from "../assets/img/logo/logo09.png"
+import HistoryImg10 from "../assets/img/logo/logo10.png"
+import HistoryImg11 from "../assets/img/logo/logo11.png"
+import HistoryImg12 from "../assets/img/logo/logo12.png"
+import HistoryImg13 from "../assets/img/logo/logo13.gif"
+import HistoryImg14 from "../assets/img/logo/logo14.png"
+import HistoryImg15 from "../assets/img/logo/logo15.png"
+import HistoryImg16 from "../assets/img/logo/logo16.png"
+import HistoryImg17 from "../assets/img/logo/logo17.png"
+import HistoryImg18 from "../assets/img/logo/logo18.png"
+// import HistoryImg19 from "../assets/img/logo/logo19.jpg"
+// import HistoryImg20 from "../assets/img/logo/logo20.jpg"
+// import HistoryImg21 from "../assets/img/logo/logo21.jpg"
+// import HistoryImg22 from "../assets/img/logo/logo22.jpg"
+
 
 
 
@@ -169,137 +173,123 @@ export const skillText = [
         desc:"Next Allegro 반응형 퍼블리싱 업무",
         work:"웹표준 마크업, HTML코딩, 웹퍼블리셔",
         date:"2024년 02월 ~ 2024년 06월",
-        img:HistoryImg04,
+        // img:HistoryImg04,
     },
     {   
         title:"산업안전복지공단 반응형 홈페이지 구축",
         desc:"산업안전복지공단 반응형 퍼블리싱 업무",
         work:"웹표준 마크업, HTML코딩, 웹퍼블리셔",
         date:"2023년 08월 ~ 2023년 11월",
-        img:HistoryImg05,
+        img:HistoryImg04,
     },
     {   
         title:"우리카드 챗봇 재구축",
         desc:"우리카드 챗봇 및 톡상담 재구축 퍼블리싱 업무",
         work:"웹표준 마크업, HTML코딩, 웹퍼블리셔",
         date:"2023년 06월 ~ 2023년 07월",
-        img:HistoryImg06,
+        img:HistoryImg05,
     },
     {   
         title:"한화 컨버전스 태양광 모니터링 시스템 고도화",
         desc:"한화 컨버전스 태양광 모니터링 시스템 고도화 퍼블리싱 업무",
         work:"웹표준 마크업, HTML코딩, 웹퍼블리셔",
         date:"2023년 04월 ~ 2023년 05월",
-        img:HistoryImg07,
+        img:HistoryImg06,
     },
     {   
         title:"SKT 모바일 지갑 UI 개선",
         desc:"모바일지갑, 국민비서 고도화 퍼블리싱, 서울시 전자 근로계약 포털 반응형 퍼블리싱 업무",
         work:"웹표준 마크업, HTML코딩, 웹퍼블리셔",
         date:"2022년 11월 ~ 2023년 01월",
-        img:HistoryImg08,
+        img:HistoryImg07,
     },
     {   
         title:"오스템 임플란트 공통 UI 개발",
         desc:"공통 UI 컴포넌트 퍼블리싱",
         work:"웹표준 마크업, HTML코딩, 웹퍼블리셔",
         date:"2022년 08월 ~ 2022년 10월",
-        img:HistoryImg09,
+        img:HistoryImg08,
     },
     {   
         title:"투썸 플레이스 모바일 고도화",
         desc:"투썸 플레이스 모바일 고도화 퍼블리싱",
         work:"웹표준 마크업, HTML코딩, 웹퍼블리셔",
         date:"2022년 02월 ~ 2022년 06월",
-        img:HistoryImg10,
+        img:HistoryImg09,
     },
     {   
         title:"한우리 열린 교육",
         desc:"한우리 열린 교육 개편 모바일 퍼블리싱, 웹 퍼블리싱",
         work:"웹표준 마크업, HTML코딩, 웹퍼블리셔",
         date:"2021년 07월 ~ 2021년 11월",
-        img:HistoryImg11,
+        img:HistoryImg10,
     },
     {   
         title:"콜 투게더 화상회의 시스템 구축",
         desc:"콜 투게더 화상회의 시스템 구축 반응형 퍼블리싱",
         work:"웹표준 마크업, HTML코딩, 웹퍼블리셔",
         date:"2021년 01월 ~ 2021년 05월",
-        img:HistoryImg12,
+        // img:HistoryImg12,
     },
     {   
         title:"CJ 올리브 네트웍스 그룹 평가보상",
         desc:"그룹 평가보상 개편 모바일 퍼블리싱, 웹 퍼블리싱",
         work:"웹표준 마크업, HTML코딩, 웹퍼블리셔",
         date:"2020년 07월 ~ 2020년 11월",
-        img:HistoryImg13,
+        img:HistoryImg11,
     },
     {   
         title:"법무부 전자 공증 시스템",
         desc:"법무부 전자 공증 시스템 모바일 퍼블리싱, 웹 퍼블리싱",
         work:"웹표준 마크업, HTML코딩, 웹퍼블리셔",
         date:"2020년 06월 ~ 2020년 07월",
-        img:HistoryImg14,
+        img:HistoryImg12,
     },
     {   
         title:"KAMCO 한국 자산 관리공사",
         desc:"온비드 재구축 프로젝트 모바일 퍼블리싱",
         work:"웹표준 마크업, HTML코딩, 웹퍼블리셔",
         date:"2020년 05월 ~ 2020년 06월",
-        img:HistoryImg15,
+        img:HistoryImg13,
     },
     {   
         title:"콜롬비아 보고타 FMS 센터(LG cns)",
         desc:"콜롬비아 보고타 FMS 센터 웹 퍼블리싱",
         work:"웹표준 마크업, HTML코딩, 웹퍼블리셔",
         date:"2020년 03월 ~ 2020년 03월",
-        img:HistoryImg16,
+        img:HistoryImg14,
     },
     {   
         title:"레드 캡 투어",
         desc:"레드 캡 투어 웹 퍼블리싱, 모바일 퍼블리싱",
         work:"웹표준 마크업, HTML코딩, 웹퍼블리셔",
         date:"2019년 12월 ~ 2020년 02월",
-        img:HistoryImg17,
+        img:HistoryImg15,
     },
     {   
         title:"민주주의 서울",
         desc:"민주주의 서울 모바일 퍼블리싱, 웹 퍼블리싱",
         work:"웹표준 마크업, HTML코딩, 웹퍼블리셔",
         date:"2019년 10월 ~ 2019년 12월",
-        img:HistoryImg18,
+        img:HistoryImg16,
     },
     {   
         title:"경찰청 국민제보",
         desc:"경찰청 국민제보 모바일 퍼블리싱, 웹 퍼블리싱",
         work:"웹표준 마크업, HTML코딩, 웹퍼블리셔",
         date:"2019년 07월 ~ 2019년 09월",
-        img:HistoryImg19,
-    },
-    {   
-        title:"민주주의 서울",
-        desc:"민주주의 서울 모바일 퍼블리싱, 웹 퍼블리싱",
-        work:"웹표준 마크업, HTML코딩, 웹퍼블리셔",
-        date:"2019년 10월 ~ 2019년 12월",
-        img:HistoryImg20,
-    },
-    {   
-        title:"레드캡투어",
-        desc:"레드캡투어 모바일, 웹 퍼블리싱",
-        work:"웹표준 마크업, HTML코딩, 웹퍼블리셔",
-        date:"2019년 05월 ~ 2019년 07월",
-        img:HistoryImg21,
+        img:HistoryImg17,
     },
     {   
         title:"mteletech",
         desc:"LG U+ 고객센터 웹표준 퍼블리싱, 본사 프로젝트 개발 퍼블리싱",
         work:"웹표준 마크업, HTML코딩, 웹퍼블리셔",
         date:"2019년 05월 ~ 2019년 07월",
-        img:HistoryImg22,
+        img:HistoryImg18,
     },
-    {
-        title:"..."
-    }
+    // {
+    //     title:"앞으로 추가될 예정..."
+    // }
     
 ]
 
@@ -318,6 +308,7 @@ export const siteText = [
             "use stack:HTML5/CSS3, CSS Variable",
         ],
         img:PortImg01,
+        img2:PortImg01_1,
     },
     {
         text: ["신한카드 장기렌터카 반응형 구축", "site compliant with", "react.js"],
@@ -378,6 +369,90 @@ export const siteText = [
             "use stack : HTML5/CSS3, Scss Variable, next.js",
         ],
         img:PortImg06,
+    },
+    {
+        text: ["한화 컨버전스 태양광 모니터링 시스템 고도화", "site compliant with", "vue.js"],
+        title: "한화 컨버전스 태양광 모니터링 시스템 고도화 퍼블리싱 업무",
+        code: "http://github.com",
+        view: "http://github.com",
+        info: [
+            "site coding",
+            "production period : two days",
+            "use stack : HTML5/CSS3, Scss Variable, next.js",
+        ],
+        img:PortImg07,
+    },
+    {
+        text: ["한화 컨버전스 태양광 모니터링 시스템 고도화", "site compliant with", "vue.js"],
+        title: "한화 컨버전스 태양광 모니터링 시스템 고도화 퍼블리싱 업무",
+        code: "http://github.com",
+        view: "http://github.com",
+        info: [
+            "site coding",
+            "production period : two days",
+            "use stack : HTML5/CSS3, Scss Variable, next.js",
+        ],
+        img:PortImg08,
+    },
+    {
+        text: ["한화 컨버전스 태양광 모니터링 시스템 고도화", "site compliant with", "vue.js"],
+        title: "한화 컨버전스 태양광 모니터링 시스템 고도화 퍼블리싱 업무",
+        code: "http://github.com",
+        view: "http://github.com",
+        info: [
+            "site coding",
+            "production period : two days",
+            "use stack : HTML5/CSS3, Scss Variable, next.js",
+        ],
+        img:PortImg09,
+    },
+    {
+        text: ["한화 컨버전스 태양광 모니터링 시스템 고도화", "site compliant with", "vue.js"],
+        title: "한화 컨버전스 태양광 모니터링 시스템 고도화 퍼블리싱 업무",
+        code: "http://github.com",
+        view: "http://github.com",
+        info: [
+            "site coding",
+            "production period : two days",
+            "use stack : HTML5/CSS3, Scss Variable, next.js",
+        ],
+        img:PortImg10,
+    },
+    {
+        text: ["한화 컨버전스 태양광 모니터링 시스템 고도화", "site compliant with", "vue.js"],
+        title: "한화 컨버전스 태양광 모니터링 시스템 고도화 퍼블리싱 업무",
+        code: "http://github.com",
+        view: "http://github.com",
+        info: [
+            "site coding",
+            "production period : two days",
+            "use stack : HTML5/CSS3, Scss Variable, next.js",
+        ],
+        img:PortImg11,
+    },
+    {
+        text: ["한화 컨버전스 태양광 모니터링 시스템 고도화", "site compliant with", "vue.js"],
+        title: "한화 컨버전스 태양광 모니터링 시스템 고도화 퍼블리싱 업무",
+        code: "http://github.com",
+        view: "http://github.com",
+        info: [
+            "site coding",
+            "production period : two days",
+            "use stack : HTML5/CSS3, Scss Variable, next.js",
+        ],
+        img:PortImg12,
+    },
+    {
+        text: ["한화 컨버전스 태양광 모니터링 시스템 고도화", "site compliant with", "vue.js"],
+        title: "한화 컨버전스 태양광 모니터링 시스템 고도화 퍼블리싱 업무",
+        code: "http://github.com",
+        view: "http://github.com",
+        info: [
+            "site coding",
+            "production period : two days",
+            "use stack : HTML5/CSS3, Scss Variable, next.js",
+        ],
+        img:PortImg13,
     },
 ]
 
@@ -443,33 +518,23 @@ export const contactText = [
 
 export const footerText = [
     {
-        title:"youtube",
-        desc:"유투브",
-        link: "https://www.youtube.com"
+        title:"blog",
+        desc:"네이버 블로그",
+        link: "https://blog.naver.com/sunchild23"
     },
     {
         title:"github",
-        desc:"유투브",
-        link: "https://www.youtube.com"
+        desc:"깃허브",
+        link: "https://nykim23.github.io/port-react/"
     },
     {
-        title:"gsap",
-        desc:"유투브",
-        link: "https://www.youtube.com"
+        title:"git blog",
+        desc:"깃 블로그",
+        link: "https://nykim23.github.io/nyBlog/"
     },
     {
-        title:"react",
-        desc:"유투브",
-        link: "https://www.youtube.com"
-    },
-    {
-        title:"vue",
-        desc:"유투브",
-        link: "https://www.youtube.com"
-    },
-    {
-        title:"next",
-        desc:"유투브",
-        link: "https://www.youtube.com"
+        title:"tostory",
+        desc:"티스토리 블로그",
+        link: "https://kong23.tistory.com/"
     },
 ]
