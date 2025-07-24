@@ -69,13 +69,13 @@ const Site = () => {
                                 {site.title}
                             </h3>
                             <div className="btn">
-                                <a href={site.code}>code</a>
-                                <a href={site.view}>view</a>
+                                {/* <a href={site.code}>code</a> */}
+                                <a href={site.view} target="_blank">view</a>
                             </div>
                             <div className="info">
                                 <span>{site.info[0]}</span>
                                 <span>{site.info[1]}</span>
-                                <span>{site.info[2]}</span>
+                                {/* <span>{site.info[2]}</span> */}
                             </div>
                             <div className="img_center">
                                 <img src={site.img} /><img src={site.img2} />

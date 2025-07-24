@@ -75,7 +75,10 @@ const Skip = () => {
                                 <img src={port.img} alt={port.name} />
                             </a>
                             <h3 className="title">{port.title}</h3>
-                            <p className="desc">{port.desc}</p>
+                            <p className="desc">{port.desc1}</p>
+                            <p className="desc">{port.desc2}</p>
+                            <p className="desc">{port.desc3}</p>
+                            <p className="desc">{port.desc4}</p>
                             <a href={port.view} target="_blank" className="site" rel="noreferrer">사이트보기</a>
                         </article>
                     </SwiperSlide>

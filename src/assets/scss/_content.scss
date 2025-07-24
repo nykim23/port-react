@@ -114,6 +114,22 @@
 @media (max-width: 800px) {
   #root {width:100%;}
   #root > div {width:100%;}
-  #main {width:100%;}
+  #main {width:100%;padding-top:80px;}
   #footer {width:100%;}
+
+  .tooltip_box button {
+    padding:10px;min-width:320px;font-size:13px;
+  }
+
+  .tooltip-container {font-size:12px;}
+  .tooltip-container[data-popper-placement*=bottom] .tooltip-arrow:before {border-color:transparent;}
+
+
+  #port .port__wrap .flx_box {width:100%;}
+  #port .port__wrap .flx_box_center {width:100%;}
+  #port .port__wrap .flx_box_center div {width:100% !important;}
+
+
+  .rotating-text {top:100px;left:10%;}
+  
 }

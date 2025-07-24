@@ -34,7 +34,7 @@
 
 
         position: sticky;
-        top: 70px;
+        top: 100px;
         left: 0;
         width: 48%;
         height: 4.5vw;
@@ -168,4 +168,12 @@
             }
         }
     }
+}
+
+
+@media (max-width: 800px) {
+    #contact {height:auto;padding-top:5vh;}
+    .contact__inner .contact__text {height:12vh;}
+    .contact__inner .contact__text .text > div > a {line-height: 1.5rem;}
+    .footer__inner .footer__text {font-size:14px;}
 }

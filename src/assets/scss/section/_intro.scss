@@ -23,7 +23,7 @@
         font-weight: 800;
         white-space: nowrap;
         // text-indent: -0.5vw;
-        letter-spacing: -0.3vw;
+        letter-spacing: -0.2vw;
 
         background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
         background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
@@ -174,4 +174,10 @@
 .intro_flx {display: flex;align-items: center;gap:20px;}
 
 
-
+@media (max-width: 800px) {
+    #intro {height:70vh;}
+    .intro__inner {padding-top:230px;}
+    .intro__inner .intro__text {height:38vh;}
+    .intro_flx {gap:10px;margin:20px auto;}
+    .react_icon {font-size:13vw;}
+}

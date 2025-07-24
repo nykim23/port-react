@@ -27,12 +27,13 @@ import PortImg03 from "../assets/img/pf/kosha.png"
 import PortImg04 from "../assets/img/pf/skt_001.png"
 import PortImg05 from "../assets/img/pf/den-all.png"
 import PortImg06 from "../assets/img/pf/twosome.jpg"
-import PortImg07 from "../assets/img/pf/law.png"
-import PortImg08 from "../assets/img/pf/smart_onbid_app.png"
-import PortImg09 from "../assets/img/pf/smart_app.png"
+import PortImg07 from "../assets/img/pf/skt_001.png"
+import PortImg08 from "../assets/img/pf/den-all.png"
+import PortImg09 from "../assets/img/pf/twosome.jpg"
 import PortImg10 from "../assets/img/pf/redcap.png"
 import PortImg11 from "../assets/img/pf/ethics.png"
-import PortImg12 from "../assets/img/pf/counsel.png"
+import PortImg12 from "../assets/img/pf/law.png"
+// import PortImg12 from "../assets/img/pf/counsel.png"
 import PortImg13 from "../assets/img/pf/lgcsapp.png"
 import PortImg14 from "../assets/img/pf/etri.jpg"
 import PortImg15 from "../assets/img/pf/hipis.jpeg"
@@ -42,6 +43,8 @@ import PortImg18 from "../assets/img/pf/lgAppsTV2.jpg"
 
 
 import PortImg01_1 from "../assets/img/pf/voc.png"
+import PortImg019 from "../assets/img/pf/doosan.png"
+import PortImg020 from "../assets/img/pf/cyberlogitec.png"
 
 
 
@@ -300,157 +303,157 @@ export const siteText = [
         text:["교보생명 FP소장 AI Assistance 고도화", "site compliant with", "webstandard"],
         title:"모바일 고도화 페이지 제작",
         date:"2025.04~2025.08",
-        code:"https://github.com/",
-        view:"https://github.com/",
+        // code:"https://github.com/",
+        view:"https://www.kyobo.com/",
         info:[
             "site coding",
-            "production period: two days",
-            "use stack:HTML5/CSS3, CSS Variable",
+            // "production period: two days",
+            "use stack:HTML5/CSS3, JS, VSCode, Mobile, Zeplin",
         ],
         img:PortImg01,
         img2:PortImg01_1,
     },
     {
-        text: ["신한카드 장기렌터카 반응형 구축", "site compliant with", "react.js"],
+        text: ["신한카드 장기렌터카 반응형 구축", "site compliant with", "responsive"],
         title: "",
-        code: "http://github.com",
-        view: "http://github.com",
+        // code: "http://github.com",
+        view: "https://mycar.shinhancard.com/conts/html/auto/rental/rentalcar/ADPFM111R61.html",
         info: [
             "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, CSS Variable, Vite",
+            // "production period : two days",
+            "use stack : HTML5/CSS3, JS, Mobile, Web, VSCode, Figma",
         ],
         img:PortImg02,
     },
     {
-        text: ["두산그룹 FCM 내부 시스템", "site compliant with", "vue.js"],
+        text: ["두산그룹 FCM 내부 시스템", "site compliant with", "react.js"],
         title: "리액트를 이용한 사이트 제작",
-        code: "http://github.com",
-        view: "http://github.com",
+        // code: "http://github.com",
+        view: "https://www.doosan.com/kr",
         info: [
             "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, Scss Variable, vue",
+            // "production period : two days",
+            "use stack : HTML5/CSS3, Scss Variable, react.js",
         ],
-        img:PortImg03,
+        img:PortImg019,
     },
     {
-        text: ["Next Allegro UI 개선 프로젝트", "site compliant with", "next.js"],
+        text: ["Next Allegro UI 개선 프로젝트", "site compliant with", "webstandard"],
         title: "",
-        code: "http://github.com",
-        view: "http://github.com",
+        // code: "http://github.com",
+        view: "https://www.cyberlogitec.com/ko/sub/solution/maritime/allegro.php",
         info: [
             "site coding",
-            "production period : two days",
+            // "production period : two days",
             "use stack : HTML5/CSS3, Scss Variable, next.js",
         ],
-        img:PortImg04,
+        img:PortImg020,
     },
     {
         text: ["산업안전복지공단 반응형 홈페이지 구축", "site compliant with", "next.js"],
         title: "반응형 사이트 제작",
-        code: "http://github.com",
-        view: "http://github.com",
+        // code: "http://github.com",
+        view: "https://www.kosha.or.kr/kosha/index.do",
         info: [
             "site coding",
-            "production period : two days",
+            // "production period : two days",
             "use stack : HTML5/CSS3, Scss Variable, next.js",
         ],
-        img:PortImg05,
+        img:PortImg03,
     },
     {
         text: ["한화 컨버전스 태양광 모니터링 시스템 고도화", "site compliant with", "vue.js"],
         title: "한화 컨버전스 태양광 모니터링 시스템 고도화 퍼블리싱 업무",
-        code: "http://github.com",
+        // code: "http://github.com",
         view: "http://github.com",
         info: [
             "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, Scss Variable, next.js",
+            // "production period : two days",
+            "use stack : HTML5/CSS3, vue.js",
         ],
         img:PortImg06,
     },
     {
-        text: ["한화 컨버전스 태양광 모니터링 시스템 고도화", "site compliant with", "vue.js"],
-        title: "한화 컨버전스 태양광 모니터링 시스템 고도화 퍼블리싱 업무",
-        code: "http://github.com",
-        view: "http://github.com",
+        text: ["SKT 모바일 지갑 UI 개선", "site compliant with", "Mobile"],
+        title: "모바일지갑, 국민비서 고도화 퍼블리싱, 서울시 전자 근로계약 포털 반응형 퍼블리싱 업무",
+        // code: "http://github.com",
+        // view: "http://github.com",
         info: [
             "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, Scss Variable, next.js",
+            // "production period : two days",
+            "use stack : HTML5/CSS3, JS, Mobile, vue.js",
         ],
         img:PortImg07,
     },
     {
-        text: ["한화 컨버전스 태양광 모니터링 시스템 고도화", "site compliant with", "vue.js"],
-        title: "한화 컨버전스 태양광 모니터링 시스템 고도화 퍼블리싱 업무",
-        code: "http://github.com",
-        view: "http://github.com",
+        text: ["오스템 임플란트 공통 UI 개발", "site compliant with", "vue.js"],
+        title: "공통 UI 컴포넌트 퍼블리싱",
+        // code: "http://github.com",
+        view: "https://osstem.com/",
         info: [
             "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, Scss Variable, next.js",
+            // "production period : two days",
+            "use stack : HTML5/CSS3, Scss Variable, vue.js",
         ],
         img:PortImg08,
     },
     {
-        text: ["한화 컨버전스 태양광 모니터링 시스템 고도화", "site compliant with", "vue.js"],
-        title: "한화 컨버전스 태양광 모니터링 시스템 고도화 퍼블리싱 업무",
-        code: "http://github.com",
-        view: "http://github.com",
+        text: ["투썸 플레이스 모바일 고도화", "site compliant with", "Mobile"],
+        title: "투썸 플레이스 모바일 고도화 퍼블리싱 업무",
+        // code: "http://github.com",
+        view: "https://www.twosome.co.kr/main.do",
         info: [
             "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, Scss Variable, next.js",
+            // "production period : two days",
+            "use stack : HTML5/CSS3, JS",
         ],
         img:PortImg09,
     },
     {
-        text: ["한화 컨버전스 태양광 모니터링 시스템 고도화", "site compliant with", "vue.js"],
-        title: "한화 컨버전스 태양광 모니터링 시스템 고도화 퍼블리싱 업무",
-        code: "http://github.com",
-        view: "http://github.com",
+        text: ["한우리 열린 교육", "site compliant with", "responsive"],
+        title: "한우리 열린 교육 개편 모바일 퍼블리싱, 웹 퍼블리싱",
+        // code: "http://github.com",
+        view: "https://www.hanuribook.com/",
         info: [
             "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, Scss Variable, next.js",
+            // "production period : two days",
+            "use stack : HTML5/CSS3, JS",
         ],
         img:PortImg10,
     },
     {
-        text: ["한화 컨버전스 태양광 모니터링 시스템 고도화", "site compliant with", "vue.js"],
-        title: "한화 컨버전스 태양광 모니터링 시스템 고도화 퍼블리싱 업무",
-        code: "http://github.com",
-        view: "http://github.com",
+        text: ["CJ 올리브 네트웍스 그룹 평가보상", "site compliant with", "responsive"],
+        title: "그룹 평가보상 개편 모바일 퍼블리싱, 웹 퍼블리싱",
+        // code: "http://github.com",
+        view: "https://www.cjolivenetworks.co.kr/",
         info: [
             "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, Scss Variable, next.js",
+            // "production period : two days",
+            "use stack : HTML5/CSS3, JS",
         ],
         img:PortImg11,
     },
     {
-        text: ["한화 컨버전스 태양광 모니터링 시스템 고도화", "site compliant with", "vue.js"],
-        title: "한화 컨버전스 태양광 모니터링 시스템 고도화 퍼블리싱 업무",
-        code: "http://github.com",
-        view: "http://github.com",
+        text: ["법무부 전자 공증 시스템", "site compliant with", "Mobile, web"],
+        title: "법무부 전자 공증 시스템 모바일 퍼블리싱, 웹 퍼블리싱",
+        // code: "http://github.com",
+        view: "https://www.moj.go.kr/moj/index.do",
         info: [
             "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, Scss Variable, next.js",
+            // "production period : two days",
+            "use stack : HTML5/CSS3, JS",
         ],
         img:PortImg12,
     },
     {
-        text: ["한화 컨버전스 태양광 모니터링 시스템 고도화", "site compliant with", "vue.js"],
-        title: "한화 컨버전스 태양광 모니터링 시스템 고도화 퍼블리싱 업무",
-        code: "http://github.com",
-        view: "http://github.com",
+        text: ["KAMCO 한국 자산 관리공사", "site compliant with", "Mobile"],
+        title: "온비드 재구축 프로젝트 모바일 퍼블리싱",
+        // code: "http://github.com",
+        view: "https://www.kamco.or.kr/main.do",
         info: [
             "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, Scss Variable, next.js",
+            // "production period : two days",
+            "use stack : HTML5/CSS3, JS",
         ],
         img:PortImg13,
     },
@@ -462,39 +465,51 @@ export const siteText = [
 export const portText = [
     {
         num:"01",
-        title:"어워드에도 올라간 포트폴리오",
-        desc:"라마",
-        img:port01,
-        code:"http://github.com"
+        title:"기타 경력사항",
+        desc1:"- '인천 하천의 봄 여름 가을 겨울' 생태지킴이 민간단체 책자 편집 디자인 작업",
+        desc2:"- 취업포털 커리어넷 기업정보 컨텐츠 관리(html) 재택근무",
+        desc3:"- 펫시터 앱개발 개발 참여",
+        // img:port01,
+        // code:"http://github.com"
     },
     {
-        num:"01",
-        title:"어워드에도 올라간 포트폴리오",
-        desc:"라마",
-        img:port01,
-        code:"http://github.com"
+        num:"02",
+        title:"교육이수",
+        desc1:"- React 프론트엔드 과정",
+        desc2:"- Vue.js 프로그래밍 과정",
+        desc3:"- 제이쿼리UI과정 제이쿼리 기본 개념 및 응용 코드 교육",
+        desc4:"- 웹표준코딩 웹표준 디자인 및 마크업 개발",
+        // img:port01,
+        // code:"http://github.com"
     },
     {
-        num:"01",
-        title:"어워드에도 올라간 포트폴리오",
-        desc:"라마",
-        img:port01,
-        code:"http://github.com"
+        num:"03",
+        title:"보유자격증",
+        desc1:"- 컴퓨터활용능력 2급",
+        desc2:"- 워드프로세스 2급",
+        desc3:"- 조향사 3급",
+        desc4:"- 디퓨저지도자과정",
+        // img:port01,
+        // code:"http://github.com"
     },
     {
-        num:"01",
-        title:"어워드에도 올라간 포트폴리오",
-        desc:"라마",
-        img:port01,
-        code:"http://github.com"
+        num:"04",
+        title:"사용 프로그램",
+        desc1:"- Figma, photoshop, Adobe XD, zeplin",
+        desc2:"- VSCode, Edit plus, Eclipse",
+        desc3:"- 일러스트, 워드, 한글, 엑셀, 파워포인트",
+        // img:port01,
+        // code:"http://github.com"
     },
     {
-        num:"01",
-        title:"어워드에도 올라간 포트폴리오",
-        desc:"라마",
-        img:port01,
-        code:"http://github.com"
+        num:"05",
+        title:"남는 시간에 즐기는 것들",
+        desc1:"- 블로그, 주얼리, 뜨개질",
+        desc2:"- 디퓨저, 소이캔들 만들기",
+        // img:port01,
+        // code:"http://github.com"
     },
+    
 ]
 
 
