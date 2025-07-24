@@ -108,3 +108,12 @@
 
 .rotating-text {color:#8be9fd !important;display: inline-block;position: absolute;top:150px;}
 .react-rotating-text-cursor {color:#fff;}
+
+
+
+@media (max-width: 800px) {
+  #root {width:100%;}
+  #root > div {width:100%;}
+  #main {width:100%;}
+  #footer {width:100%;}
+}
