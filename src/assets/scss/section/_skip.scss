@@ -1,15 +1,15 @@
-#port {
+#etc {
     width: 100%;
     padding-top: 12vh;
     // overflow: hidden;
 
 
-    .port__inner {
+    .etc__inner {
         padding: 16px;
         color: var(--white);
         font-size: 1.5rem;
 
-        .port__title {
+        .etc__title {
             width: 100%;
             height: 5vw;
             font-size: 4vw;
@@ -57,7 +57,7 @@
         }
     }
 
-    .port__wrap {
+    .etc__wrap {
         display: flex;
         flex-wrap: wrap;
         width: 1000px;
@@ -137,7 +137,7 @@
 
 
 
-        .port__item {
+        .etc__item {
             width: 500px;
             // height: 70vh;
             background-color: var(--subBg100);
@@ -237,9 +237,9 @@
     }
 
     @media (max-width: 800px){ 
-        .port__wrap {
+        .etc__wrap {
             width:100%;padding:0 20px;
-            .port__item {
+            .etc__item {
                 width:100%;
                 .img {margin-top:0;}
             }
@@ -259,23 +259,23 @@
 
 
 @media (max-width: 800px) {
-    #port {height:auto;padding-top:5vh;}
-    #port .port__wrap span {font-size:15vw;}
-    #port .port__wrap .flx_box {border-bottom:1px dashed #12c2e9;}
-    #port .port__wrap .flx_box .date {font-size:5.5vw;margin-left:10px;}
-    #port .port__wrap h3 {font-size:5.7vw}
-    #port .port__inner .port__title {margin-bottom:4vw;margin-top:10vw;}
+    #etc {height:auto;padding-top:5vh;}
+    #etc .etc__wrap span {font-size:15vw;}
+    #etc .etc__wrap .flx_box {border-bottom:1px dashed #12c2e9;}
+    #etc .etc__wrap .flx_box .date {font-size:5.5vw;margin-left:10px;}
+    #etc .etc__wrap h3 {font-size:5.7vw}
+    #etc .etc__inner .etc__title {margin-bottom:4vw;margin-top:10vw;}
 
-    #port .port__wrap .flx_box:first-child .flx_box_center {margin-top:0;}
-    #port .port__wrap .flx_box_center {margin-top:3vh;margin-bottom:7vh;}
-    #port .port__wrap .flx_box .img-box {text-align: center;margin: 0 auto;}
-    #port .port__wrap .flx_box .img-box [class*="img"] {width:90%;}
-    #port .port__wrap p {font-size:1rem;margin-top:20px;}
-    #port .port__wrap p + p {margin-bottom:30px;margin-top:6px;}
+    #etc .etc__wrap .flx_box:first-child .flx_box_center {margin-top:0;}
+    #etc .etc__wrap .flx_box_center {margin-top:3vh;margin-bottom:7vh;}
+    #etc .etc__wrap .flx_box .img-box {text-align: center;margin: 0 auto;}
+    #etc .etc__wrap .flx_box .img-box [class*="img"] {width:90%;}
+    #etc .etc__wrap p {font-size:1rem;margin-top:20px;}
+    #etc .etc__wrap p + p {margin-bottom:30px;margin-top:6px;}
 
 
-    #port .port__wrap .flx_box .img-box .img15 {width:75%;}
-    #port .port__wrap .flx_box .img-box .img19 {width:150px;}
+    #etc .etc__wrap .flx_box .img-box .img15 {width:75%;}
+    #etc .etc__wrap .flx_box .img-box .img19 {width:150px;}
 
     
 }

@@ -26,15 +26,15 @@ import PortImg02 from "../assets/img/pf/mycar_shinhancard.png"
 import PortImg03 from "../assets/img/pf/kosha.png"
 import PortImg04 from "../assets/img/pf/skt_001.png"
 import PortImg05 from "../assets/img/pf/den-all.png"
-import PortImg06 from "../assets/img/pf/twosome.jpg"
+import PortImg06 from "../assets/img/pf/hanhwa.png"
 import PortImg07 from "../assets/img/pf/skt_001.png"
 import PortImg08 from "../assets/img/pf/den-all.png"
 import PortImg09 from "../assets/img/pf/twosome.jpg"
-import PortImg10 from "../assets/img/pf/redcap.png"
-import PortImg11 from "../assets/img/pf/ethics.png"
+import PortImg10 from "../assets/img/pf/hanuri.png"
+import PortImg11 from "../assets/img/pf/cj.png"
 import PortImg12 from "../assets/img/pf/law.png"
 // import PortImg12 from "../assets/img/pf/counsel.png"
-import PortImg13 from "../assets/img/pf/lgcsapp.png"
+import PortImg13 from "../assets/img/pf/smart_onbid_app.png"
 import PortImg14 from "../assets/img/pf/etri.jpg"
 import PortImg15 from "../assets/img/pf/hipis.jpeg"
 import PortImg16 from "../assets/img/pf/tce.jpg"
@@ -136,6 +136,10 @@ export const headerNav = [
     {
         title: "skill",
         url: "#skill"
+    },
+    {
+        title: "etc",
+        url: "#etc"
     },
     {
         title: "contact",
@@ -365,7 +369,7 @@ export const siteText = [
         text: ["한화 컨버전스 태양광 모니터링 시스템 고도화", "site compliant with", "vue.js"],
         title: "한화 컨버전스 태양광 모니터링 시스템 고도화 퍼블리싱 업무",
         // code: "http://github.com",
-        view: "http://github.com",
+        view: "https://hanwhaconvergence.com/kr/sub/solution/sol_green_energy_platform.asp",
         info: [
             "site coding",
             // "production period : two days",
@@ -449,7 +453,7 @@ export const siteText = [
         text: ["KAMCO 한국 자산 관리공사", "site compliant with", "Mobile"],
         title: "온비드 재구축 프로젝트 모바일 퍼블리싱",
         // code: "http://github.com",
-        view: "https://www.kamco.or.kr/main.do",
+        view: "https://play.google.com/store/apps/details?id=net.ib.asp.android.kamco.mb",
         info: [
             "site coding",
             // "production period : two days",
@@ -462,7 +466,7 @@ export const siteText = [
 
 
 
-export const portText = [
+export const etcText = [
     {
         num:"01",
         title:"기타 경력사항",

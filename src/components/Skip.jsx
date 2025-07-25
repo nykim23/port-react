@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 
-import { portText } from "../constants";
+import { etcText } from "../constants";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -19,13 +19,13 @@ gsap.registerPlugin(ScrollTrigger);
 const Skip = () => {
     return (
 
-        <section id="port">
-            <div className="port__inner">
-                <h2 className="port__title">
+        <section id="etc">
+            <div className="etc__inner">
+                <h2 className="etc__title">
                     기타사항
                 </h2>
             </div>
-            <div className="port__wrap">
+            <div className="etc__wrap">
 
                 <Swiper 
                     slidesPerView={1}
@@ -67,19 +67,19 @@ const Skip = () => {
                 >
                 
 
-                {portText.map((port,key) => (
+                {etcText.map((etc,key) => (
                     <SwiperSlide key={key}>
-                        <article className={`port__item p${key+1}`} key={key}>
-                            <span className="num">{port.num}.</span>
-                            <a href={port.code} target="_blank" className="img" rel="noreferrer">
-                                <img src={port.img} alt={port.name} />
+                        <article className={`etc__item p${key+1}`} key={key}>
+                            <span className="num">{etc.num}.</span>
+                            <a href={etc.code} target="_blank" className="img" rel="noreferrer">
+                                <img src={etc.img} alt={etc.name} />
                             </a>
-                            <h3 className="title">{port.title}</h3>
-                            <p className="desc">{port.desc1}</p>
-                            <p className="desc">{port.desc2}</p>
-                            <p className="desc">{port.desc3}</p>
-                            <p className="desc">{port.desc4}</p>
-                            <a href={port.view} target="_blank" className="site" rel="noreferrer">사이트보기</a>
+                            <h3 className="title">{etc.title}</h3>
+                            <p className="desc">{etc.desc1}</p>
+                            <p className="desc">{etc.desc2}</p>
+                            <p className="desc">{etc.desc3}</p>
+                            <p className="desc">{etc.desc4}</p>
+                            <a href={etc.view} target="_blank" className="site" rel="noreferrer">사이트보기</a>
                         </article>
                     </SwiperSlide>
                 ))}

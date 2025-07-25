@@ -299,6 +299,12 @@
 #site .site__inner .site__wrap .site__item .img_center {height:530px;}
 #site .site__inner .site__wrap .site__item .img_center img {height:520px;}
 
+#site .site__inner .site__wrap .site__item.s13 .img_center {align-items: center;}
+#site .site__inner .site__wrap .site__item.s13 .img_center img {height:200px;}
+#site .site__inner .site__wrap .site__item.s10 .img_center img {height:400px;}
+
+
+
 @media (max-width: 800px) {
     #site .site__inner .site__wrap .site__item .img_center {flex-direction: column;height:auto;}
 
@@ -314,5 +320,5 @@
 
 
     #site .site__inner .site__wrap .site__item.s9 .img_center img {width:144px;}
-    #site .site__inner .site__wrap .site__item.s13 .img_center img {width:144px;}
+    #site .site__inner .site__wrap .site__item.s13 .img_center img {width:auto;}
 }
